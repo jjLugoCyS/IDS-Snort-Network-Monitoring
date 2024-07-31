@@ -2,7 +2,7 @@
 
 ## Objective
 
-Implement network monitoring using IDS and Snort to detect and analyze network threats, enhancing security through monitoring and response.
+Implement network monitoring using IDS and Snort to detect and analyze network threats, enhancing security through continuous monitoring and rapid response.
 
 ### Skills Learned
 [Bullet Points - Remove this afterwards]
