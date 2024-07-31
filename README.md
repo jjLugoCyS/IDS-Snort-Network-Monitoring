@@ -14,14 +14,13 @@ Implement network monitoring using IDS and Snort to detect and analyze network t
 
 ### Tools Used
 
-- Ubuntu
+- Ubuntu: Linux distrobution
 - Snort: An open-source intrusion detection system used for network traffic analysis and threat detection.
 
 ## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
 
-Every screenshot should have some text explaining what the screenshot is about.
-
-Example below.
-
-*Ref 1: Network Diagram*
+1. Fire up the Ubuntu machine, open a terminal, and run update/upgrade before installing prerequisite packages.
+2. Make a directory for Snort and intall prequisites and dependencies for Snort.
+3. After Snort is installed create some rules for analysis. Using ICMP rules, create a local rules file to allow alerts. These tell Snort to send an alert on ICMP traffic.<br>
+![rules folder](https://github.com/user-attachments/assets/a8c7abd8-aa55-4407-a139-1ee6780839d0)<br>
+*Ref 1: Rules Folder*
