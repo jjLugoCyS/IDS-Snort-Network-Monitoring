@@ -13,11 +13,9 @@ Implement network monitoring using IDS and Snort to detect and analyze network t
 - Improving security posture through monitoring and response.
 
 ### Tools Used
-[Bullet Points - Remove this afterwards]
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+- Ubuntu
+- Snort: An open-source intrusion detection system used for network traffic analysis and threat detection.
 
 ## Steps
 drag & drop screenshots here or use imgur and reference them using imgsrc
