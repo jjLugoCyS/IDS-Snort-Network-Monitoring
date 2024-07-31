@@ -1,4 +1,4 @@
-# IDS-Zeek-Snort-Network-Monitoring
+# IDS-Snort-Network-Monitoring
 
 ## Objective
 [Brief Objective - Remove this afterwards]
