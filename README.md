@@ -44,3 +44,6 @@ Implement network monitoring using IDS and Snort to detect and analyze network t
 7. Run Snort and point it toward the Snort configuration file.<br>
 ![running snort and pointing to rules file](https://github.com/user-attachments/assets/a94df377-33da-4975-84b1-6a8e9c2f6806)<br>
 *Ref 9: Point Snort to Config file*<br>
+8. Now open the default Snort configuration file.<br>
+![defualt config](https://github.com/user-attachments/assets/28293f44-14f2-43ce-94ce-33f6c4988a27)<br>
+*Ref 10: Default config.*<br>
