@@ -52,4 +52,6 @@ Implement network monitoring using IDS and Snort to detect and analyze network t
 10. Look for a field called IPS, we can find this by pressing ctrl+W and typing "ips" into the search. Locate "enable_builtin_rules" and enable them by uncommenting that line. To specifiy where your rules are located, on a new line above "variables" enter "include =" with the path to a rules file.<br>
 ![enable rules and specify where they are located](https://github.com/user-attachments/assets/98033c3a-64a5-46e5-b5f5-933fd4cbabf3)<br>
 *Ref 12: snort.lua config file*<br>
-11. 
+11. Expand the ruleset and download pulledpork3 for free rulesets.<br>
+![install pulledpork](https://github.com/user-attachments/assets/6d6ee1a4-a382-4004-984c-563f54bb3f75)<br>
+*Ref 13: Pulledpork installation*<br>
