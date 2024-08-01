@@ -62,8 +62,14 @@ Implement network monitoring using IDS and Snort to detect and analyze network t
 ![select registered ruleset by changing to true-done](https://github.com/user-attachments/assets/64c97f42-84b4-4815-8120-1655e4c052a1)<br>
 *Ref 15: Registered_ruleset*<br>
 14. Point pulledpork3 to the pulledpork configuration file.<br>
-![point to pp3 and config file](https://github.com/user-attachments/assets/c29a816a-9049-4833-99ec-0fc1d4362d39)<br
+![point to pp3 and config file](https://github.com/user-attachments/assets/c29a816a-9049-4833-99ec-0fc1d4362d39)<br>
 *Ref 16: Point PP3 to PP config*<br> 
-*![running snort without rule path](https://github.com/user-attachments/assets/9885cb88-6113-47c1-a4ee-9fb6a77fd7ec)<br>*
-*Ref 17: Run Snort without rule path*
-15. 
+15. Head back to Snort configuration files and change IPS to point it to pulledpork rules.
+![change include to pp rules file](https://github.com/user-attachments/assets/5af668b3-266d-4f3c-8620-b51fcc671c6b)<br>
+*Ref 17: Now pointing to PP rules file*
+17. Run Snort pointed to the new configuration file and the specified rules.<br>
+![running snort without rule path](https://github.com/user-attachments/assets/9885cb88-6113-47c1-a4ee-9fb6a77fd7ec)<br>
+*Ref 18: Run Snort without rule path*<br>
+![run snort pointed to config and specified rules path](https://github.com/user-attachments/assets/eadf524e-ecb9-425f-9631-6174c7fe553a)<br>
+*Ref 18: Snort pointed to new rules*
+18. 
