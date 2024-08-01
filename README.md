@@ -55,3 +55,7 @@ Implement network monitoring using IDS and Snort to detect and analyze network t
 11. Expand the ruleset and download pulledpork3 for free rulesets.<br>
 ![install pulledpork](https://github.com/user-attachments/assets/6d6ee1a4-a382-4004-984c-563f54bb3f75)<br>
 *Ref 13: Pulledpork installation*<br>
+12. Mext we open the pulledpork configuration file.<br>
+![open config file](https://github.com/user-attachments/assets/048cc259-20e0-404f-9a93-aa909cd405f5)<br>
+*Ref 14: Pulledpork.conf*<br>
+
