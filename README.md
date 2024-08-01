@@ -77,3 +77,6 @@ Implement network monitoring using IDS and Snort to detect and analyze network t
 19. After we have doanloaded a test pcap we can run snort and generate some output.<br>
 ![pcap output](https://github.com/user-attachments/assets/8979139b-c816-42b5-a717-786e8a8dcd7e)<br>
 *Ref 20: Pcap output*<br>
+20. With the amount of alerts produced with this pcap we should output it to a file. We do this by adding "> pcap-signature.txt".<br>
+![output to a file](https://github.com/user-attachments/assets/eea3e764-2d22-4ae7-8650-fe416d824923)<br>
+*Ref 21: Out to a file*<br>
