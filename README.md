@@ -64,4 +64,6 @@ Implement network monitoring using IDS and Snort to detect and analyze network t
 14. Point pulledpork3 to the pulledpork configuration file.<br>
 ![point to pp3 and config file](https://github.com/user-attachments/assets/c29a816a-9049-4833-99ec-0fc1d4362d39)<br
 *Ref 16: Point PP3 to PP config*<br> 
+*![running snort without rule path](https://github.com/user-attachments/assets/9885cb88-6113-47c1-a4ee-9fb6a77fd7ec)<br>*
+*Ref 17: Run Snort without rule path*
 15. 
