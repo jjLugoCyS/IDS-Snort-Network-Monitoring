@@ -82,3 +82,6 @@ Implement network monitoring using IDS and Snort to detect and analyze network t
 20. With the amount of alerts produced with this pcap we should output it to a file. We do this by adding "> pcap-signature.txt".<br>
 ![output to a file](https://github.com/user-attachments/assets/eea3e764-2d22-4ae7-8650-fe416d824923)<br>
 *Ref 22: Out to a file*<br>
+21. Clean up the out put by using the cut command to present information in an easier to read format.<br>
+![more presentable by cutting information out](https://github.com/user-attachments/assets/04c679ef-abed-45c2-aeb8-f085784ec89e)<br>
+*Ref 23: Command for presentation*<br>
