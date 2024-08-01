@@ -72,4 +72,8 @@ Implement network monitoring using IDS and Snort to detect and analyze network t
 *Ref 18: Run Snort without rule path*<br>
 ![run snort pointed to config and specified rules path](https://github.com/user-attachments/assets/eadf524e-ecb9-425f-9631-6174c7fe553a)<br>
 *Ref 18: Snort pointed to new rules*
-18. 
+![pp3 running succesful](https://github.com/user-attachments/assets/0e838b41-4b7a-4545-a110-e34c059d56f7)<br>
+*Ref 19: Success!*
+19. After we have doanloaded a test pcap we can run snort and generate some output.<br>
+![pcap output](https://github.com/user-attachments/assets/8979139b-c816-42b5-a717-786e8a8dcd7e)<br>
+*Ref 20: Pcap output*<br>
