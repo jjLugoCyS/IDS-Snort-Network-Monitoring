@@ -58,4 +58,6 @@ Implement network monitoring using IDS and Snort to detect and analyze network t
 12. Mext we open the pulledpork configuration file.<br>
 ![open config file](https://github.com/user-attachments/assets/048cc259-20e0-404f-9a93-aa909cd405f5)<br>
 *Ref 14: Pulledpork.conf*<br>
-
+13. In the configuration file locate "registered_ruleset" and change it to "true".<br>
+![select registered ruleset by changing to true-done](https://github.com/user-attachments/assets/64c97f42-84b4-4815-8120-1655e4c052a1)<br>
+*Ref 15: Registered_ruleset*<br>
