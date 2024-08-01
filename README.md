@@ -47,7 +47,7 @@ Implement network monitoring using IDS and Snort to detect and analyze network t
 8. Now open the default Snort configuration file.<br>
 ![defualt config](https://github.com/user-attachments/assets/28293f44-14f2-43ce-94ce-33f6c4988a27)<br>
 *Ref 10: Default config*<br>
-9.Look for a field called IPS, we can find this by pressing ctrl+W and typing "ips" into the search. Locate "enable_builtin_rules" and enable them by uncommenting that line. To specifiy where your rules are located, on a new line above "variables" enter "include =" with the path to a rules file.<br>
+9. Look for a field called IPS, we can find this by pressing ctrl+W and typing "ips" into the search. Locate "enable_builtin_rules" and enable them by uncommenting that line. To specifiy where your rules are located, on a new line above "variables" enter "include =" with the path to a rules file.<br>
 ![enable rules and specify where they are located](https://github.com/user-attachments/assets/98033c3a-64a5-46e5-b5f5-933fd4cbabf3)<br>
 *Ref 11: snort.lua config file*<br>
 10. 
