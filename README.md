@@ -29,7 +29,7 @@ Implement network monitoring using IDS and Snort to detect and analyze network t
 4. Opening the rule file to create a rule: alert icmp-the alert typr, any any - representing the src address and port, -> any any- destination address and port, and the signature id (always start custom rules at 1 million because numbers 1 - 999,999 are reservec).<br>
 ![rule](https://github.com/user-attachments/assets/1fd61fe6-e3d5-456e-b3df-18426bfb4133)<br>
 *Ref 3: The Rule*<br>
-5. When Snort is ran to check the created rule it shows that Snort is now listening in on that traffic using our network adapter. On another machine run a ping to the Ubuntu machine's IP. Snort starts up with rules network interface and alerts format<br>
+5. When Snort is ran to check the created rule it shows that Snort is now listening in on that traffic using our network adapter. On another machine run a ping to the Ubuntu machine's IP. Snort starts up with rules network interface and alerts format.<br>
 ![snort validation](https://github.com/user-attachments/assets/55fb2c04-b332-4ea8-8991-1ece46d8fb26)<br>
 *Ref 4: Snort validation*<br>
 ![snort start up with rules network interface and alerts format-done](https://github.com/user-attachments/assets/fe0b6b1c-8b9c-41ac-983e-ea57ea441881)
@@ -38,4 +38,9 @@ Implement network monitoring using IDS and Snort to detect and analyze network t
 *Ref 6: Snort listening on network adapter*<br>
 ![rule works](https://github.com/user-attachments/assets/82837bcd-20a3-4637-a587-c4667ea8c240)<br>
 *Ref 7: The Rule Works*<br>
-6.
+6.Turn off recieve-offload automatically with every boot using a service.<br>
+![rules folder](https://github.com/user-attachments/assets/a8c7abd8-aa55-4407-a139-1ee6780839d0)<br>
+*Ref 8: Rules offload *<br>
+7. Run Snort and point it toward the Snort configuration file.<br>
+![running snort and pointing to rules file](https://github.com/user-attachments/assets/a94df377-33da-4975-84b1-6a8e9c2f6806)<br>
+*Ref 9: Point Snort to Config file*<br>
