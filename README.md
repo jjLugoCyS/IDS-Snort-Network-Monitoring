@@ -7,7 +7,7 @@ Implement network monitoring using IDS and Snort to detect and analyze network t
 ### Skills Learned
 
 - Proficiency in configuring and deploying Snort.
-- Analyze network traffic to identify potential security threats.
+- Analyzing network traffic to identify potential security threats.
 - Troubleshooting and resolving configuration issues.
 - Interpreting Snort alerts and logs for incident response.
 - Improving security posture through monitoring and response.
@@ -26,7 +26,7 @@ Implement network monitoring using IDS and Snort to detect and analyze network t
 *Ref 1: Rules Folder*<br>
 ![rules file](https://github.com/user-attachments/assets/273c3b85-462a-4e81-8cf2-a7a98ee43b38)<br>
 *Ref 2: Rules File*<br>
-4. Opening the rule file to create a rule: alert icmp-the alert typr, any any - representing the src address and port, -> any any- destination address and port, and the signature id (always start custom rules at 1 million because numbers 1 - 999,999 are reservec).<br>
+4. Open the rule file to create a rule: alert icmp - the alert type, any any - representing the source address and port, -> any any - destination address and port, and the signature id (always start custom rules at 1 million because numbers 1 - 999,999 are reserved).<br<
 ![rule](https://github.com/user-attachments/assets/1fd61fe6-e3d5-456e-b3df-18426bfb4133)<br>
 *Ref 3: The Rule*<br>
 5. When Snort is ran to check the created rule it shows that Snort is now listening in on that traffic using our network adapter. On another machine run a ping to the Ubuntu machine's IP. Snort starts up with rules network interface and alerts format.<br>
@@ -85,3 +85,10 @@ Implement network monitoring using IDS and Snort to detect and analyze network t
 21. Clean up the out put by using the cut command to present information in an easier to read format.<br>
 ![more presentable by cutting information out](https://github.com/user-attachments/assets/04c679ef-abed-45c2-aeb8-f085784ec89e)<br>
 *Ref 23: Command for presentation*<br>
+22. To further make it look presentable use sort and uniq to de duplicate and list alerts by amount.<br>
+![final presentation sort](https://github.com/user-attachments/assets/9f532648-ea7d-4a7a-a8db-2d40a9136ba6)<br>
+*Ref 24: Final presentation*
+23. Something interesting being spotted in the pcap needs further investigation. Use "grep -i malware pcap-signatures.txt" to isolate and view the alert.<br>
+![malware info](https://github.com/user-attachments/assets/757df202-9976-42fd-86f4-c5d2a12f8219)<br>
+*Ref 25: Isolated malware info*
+24. Now we can take a look at the IP that is in the pcap and run it through an analyzer like Wireshark and analyze it.
